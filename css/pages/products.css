@@ -1,0 +1,329 @@
+.main1 {
+    margin: 124px 0 144px 0;
+}
+
+.filters {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main1 form {
+    display: flex;
+    align-items: center;
+}
+
+.main1 input,
+select {
+    height: 28px;
+    border-color: #E7E6EF;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.main1 input {
+    padding-left: 10px;
+}
+
+#input-page {
+    width: 55px;
+    margin: 0 27px 0 8px;
+}
+
+#input-sortby {
+    width: fit-content;
+    height: 30px;
+    margin: 0 24px 0 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8A8FB9;
+}
+
+#input-view {
+    width: 162;
+    margin-left: 27px;
+}
+
+#grid {
+    margin: 0 5px 0 4px;
+}
+
+form label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3C486B;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #3C486B;
+}
+
+.results {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8A8FB9;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 38px;
+    grid-row-gap: 81px;
+    margin-bottom: 88px;
+}
+
+.main2 div {
+    display: flex;
+}
+
+.product-display {
+    width: 270px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F7FB;
+}
+
+.product-display img {
+    width: 100%;
+    height: 280px;
+}
+
+.product-display:hover {
+    background-color: #EBF4F3;
+}
+
+.product-display:hover .product-actions {
+    opacity: 1;
+}
+
+.img-product {
+    margin: auto;
+    cursor: pointer;
+}
+
+.product-details {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-quantity p {
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #F45050;
+}
+
+h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #3C486B;
+}
+
+.product-colors {
+    margin: 8px 0 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.main2 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-orange {
+    background-color: #DE9034;
+}
+
+.color-pink {
+    background-color: #EC42A2;
+}
+
+.color-blue {
+    background-color: #8568FF;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.product-price p:first-of-type {
+    color: #151875;
+    cursor: pointer;
+}
+
+.product-price p:last-of-type {
+    color: #FB2E86;
+    cursor: pointer;
+}
+
+main .wrap .main2 div .reserve button {
+    width: 72px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+main .wrap .main2 div .reserve .no_product {
+
+    background-color: black;
+    cursor: not-allowed;
+
+}
+
+main .wrap .main2 div .product {
+    display: flex;
+    flex-direction: column;
+}
+
+main .wrap .main2 div .reserve {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+div.popup-modale {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-modale-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 500px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+}
+
+.popup-modale-content form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-modale-content h2 {
+    margin-top: 0;
+}
+
+.popup-modale-content label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.popup-modale-content input {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.popup-modale-content input[type="number"] {
+    padding: 5px;
+    width: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8A8FB9;
+    border-color: #E7E6EF;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.popup-modale-content label[for="quantite"] {
+    grid-row: 1;
+}
+
+.popup-modale-content label[for="prix"] {
+    grid-row: 2;
+}
+
+.popup-modale-content label[for="image"] {
+    margin-right: 5px;
+}
+
+.popup-modale-content button[type="submit"] {
+    grid-row: 3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #3C486B;
+    font-weight: 700;
+}
+
+#reservationBtn:disabled {
+    background-color: #ccc;
+    /* Couleur de fond grise */
+    color: #666;
+    /* Couleur de texte grise */
+    border-color: #ccc;
+    /* Couleur de bordure grise */
+}
+
+#reservationBtn {
+    width: 100px;
+}
+
+#utilisateur {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#etat {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nom {
+    height: 28px;
+    border-color: #E7E6EF;
+    border-style: solid;
+    border-width: 1px;
+}

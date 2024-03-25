@@ -1,0 +1,98 @@
+/* GENERAL */
+input[type="text"],
+[type="email"] {
+    padding-left: 10px;
+}
+
+textarea {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/* FAQ */
+.input-form-faq,
+.textarea-form {
+    width: 445px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #8A8FB9;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCEDC;
+    border-radius: 5px;
+}
+
+.form1 {
+    margin-bottom: 35px;
+    height: 50px;
+}
+
+.form2 {
+    margin-bottom: 45px;
+    height: 50px;
+}
+
+.textarea-form {
+    margin-bottom: 41px;
+    ;
+    height: 197px;
+}
+
+/* CONTACT */
+.input-form-contact,
+.textarea-form-contact {
+    height: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #8A8FB9;
+    box-sizing: border-box;
+    color: #8990B1;
+    font-size: 16px;
+    border: 1px solid rgba(164, 182, 200, 0.7);
+    border-radius: 3px;
+}
+
+.formsmall {
+    width: 255px;
+}
+
+.formbig {
+    width: 534px;
+}
+
+.textarea-form-contact {
+    width: 534px;
+    height: 166px;
+    margin: 47px 0 33px 0;
+}
+
+/* FOOTER */
+.form-footer {
+    display: flex;
+    align-items: center;
+    max-width: 337px;
+    border-radius: 3px;
+    border: 2.5px solid #F6F7FD;
+}
+
+.emailadress {
+    width: 200px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #F6F7FD;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    outline: none;
+}
+
+.emailadress::placeholder {
+    color: #8A8FB9;
+}

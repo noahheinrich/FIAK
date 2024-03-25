@@ -1,0 +1,130 @@
+main .wrap .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main .wrap .products div .image{
+    width: 270px;
+    height: 280px;
+    background-color: #F6F7FB;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+
+
+main .wrap .products .icons {
+  position: absolute;
+  top: 174px;
+  left: 11px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out visibility 0s linear 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .wrap .products .icons img {
+  margin-top: 5px;
+}
+
+main .wrap .products .icons:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+main .wrap .products .image:hover {
+  background-color: #EBF4F3;
+}
+
+main .wrap .products .image:hover .icons {
+  opacity: 1;
+}
+
+main .wrap .products .image .icons img {
+    padding: 4px;
+    border-radius: 50%;
+}
+
+main .wrap .products .image .icons img:hover {
+    background-color: #ffffff;
+}
+
+main .wrap .products div .prices{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .wrap .products div .prices .price-title{
+    margin: 18px 10px 8px 0; 
+}
+
+main .wrap .products div .prices .price-title h3{
+    margin: 0;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-weight: 700;
+    color: #151875;
+    white-space: nowrap;
+}
+
+main .wrap .products div .prices .price-variant{
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wrap .products div .price-variant span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+main .wrap .products div span:nth-of-type(1){
+    background-color: #DE9034;
+}
+
+main .wrap .products div span:nth-of-type(2){
+    background-color: #EC42A2;
+}
+
+main .wrap .products div span:nth-of-type(3){
+    background-color: #8568FF;
+}
+
+main .wrap .products div .prices .price-amounts{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wrap .products div .prices p{
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #151875;
+    margin-top: 8px;
+}
+
+main .wrap .products div .reserve button {
+    background-color: #FB2E86;
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 48px;
+    color: white;
+    border-radius: 3px;
+    margin-top: 8px;
+}

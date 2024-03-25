@@ -1,0 +1,50 @@
+button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #3C486B;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #F9D949;
+    cursor: pointer;
+}
+
+.sendmail-button-faq {
+    width: 156px;
+    height: 48px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sendmail-button-contact {
+    width: 157px;
+    height: 44px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-button {
+    width: 51px;
+    height: 24x;
+    cursor: pointer;
+}
+
+.signup-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    width: 135px;
+    height: 44px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.home-button {
+    width: 156px;
+    height: 48px;
+    border-radius: 3px;
+}

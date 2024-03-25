@@ -1,0 +1,25 @@
+footer{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer{
+    padding: 17px 0 17px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    background-color: #3C486B;
+}   
+.footer .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+

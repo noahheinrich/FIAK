@@ -1,0 +1,50 @@
+main {
+    height: 60vh;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100px;
+    height: 50px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 124px 0 88px 0;
+}
+
+#nomform {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #3C486B;
+}
+
+input {
+    height: 28px;
+    border-color: #E7E6EF;
+    border-style: solid;
+    border-width: 1px;
+}

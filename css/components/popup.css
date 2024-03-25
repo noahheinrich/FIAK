@@ -1,0 +1,255 @@
+div.popup-modale {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-modale-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 500px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.popup-modale-content form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-modale-content h2 {
+  margin-top: 0;
+}
+
+.popup-modale-content label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.popup-modale-content input {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.popup-modale-content input[type="number"] {
+  padding: 5px;
+  width: 100px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8A8FB9;
+  border-color: #E7E6EF;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.popup-modale-content input[type="text"] {
+  padding: 5px;
+  width: 150px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8A8FB9;
+  border-color: #E7E6EF;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.popup-modale-content label[for="quantite"] {
+  grid-row: 1;
+}
+
+.popup-modale-content label[for="prix"] {
+  grid-row: 2;
+}
+
+.popup-modale-content label[for="image"] {
+  margin-right: 5px;
+}
+
+.popup-modale-content button[type="submit"] {
+  grid-row: 3;
+  color: #3C486B;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.close-btn {
+  position: relative;
+  bottom: 0px;
+  left: 90%;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #3C486B;
+  margin-top: 10px;
+}
+
+.popup-modale2 {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-modale-content2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  overflow: scroll;
+}
+
+.popup-modale-content2 form {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: auto;
+  align-items: center;
+}
+
+.add {
+  margin-top: 16px;
+  width: 140px;
+  height: 40px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: #F9D949;
+  cursor: pointer;
+}
+
+.popup-modale-content2 h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.popup-modale-content2 label {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.popup-modale-content2 input[type="number"] {
+  height: 20px;
+  padding: 5px;
+  border-color: #E7E6EF;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.popup-modale-content2 label[for="quantite"] {
+  grid-row: 1;
+}
+
+.popup-modale-content2 label[for="prix"] {
+  grid-row: 2;
+}
+
+.popup-modale-content2 button[type="submit"] {
+  grid-row: 3;
+  background-color: #F9D949;
+  color: #3C486B;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+}
+
+.input-img {
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+div.popup-modale-error {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-modale-content-error {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 500px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.popup-modale-content-error h2 {
+  margin-top: 0;
+}
+
+.popup-modale-content-error p {
+  margin-top: 20px;
+}
+
+.btnbrand {
+  height: 30px;
+}
